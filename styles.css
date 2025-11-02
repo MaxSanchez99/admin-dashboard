@@ -74,3 +74,52 @@ h6 {
 #__next {
     isolation: isolate;
 }
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 5fr;
+    width: 100vw;
+    height: 100vh;
+}
+
+.sidebar {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    background-color: lightblue;
+
+    display: grid;
+}
+
+.header {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.main-content {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    background-color: lightgray;
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.project {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+}
+
+.announcement {
+    grid-row: 1 / 2;
+}
+
+.trend {
+    grid-row: 2 / 3;
+}
