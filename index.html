@@ -9,7 +9,7 @@
 <body>
     <div class="container">
         <div class="sidebar">
-            <div class="link top-link">
+            <div class="link" id="top-link">
                 <img src="images/view-dashboard.svg" alt="dashboard" class="icon">
                 <a href="">Dashboard</a>
             </div>
@@ -67,20 +67,156 @@
 
 
         <div class="header">
-            <div class="search">Search</div>
-            <div class="profile-icon">Profile Icon</div>
-            <div class="title">Title</div>
-            <div class="buttons">Buttons</div>
+            <div class="search">
+                <img src="images/magnify.svg" alt="search">
+                <input type="text" name="search" id="search-bar">
+            </div>
+
+            <div class="profile-icon">
+                <img src="images/bell-ring-outline.svg" alt="notification">
+                <img src="images/account-circle.svg" alt="profile icon">
+                <div class="title">Morgan Oakley</div>
+            </div>
+
+            <div class="title">
+                <img src="images/account-circle.svg" alt="profile icon">
+                <div>
+                    <div>Hi there,</div>
+                    <div>Morgan Oakley(@morgan)</div>
+                </div>
+            </div>
+
+            <div class="buttons">
+                <button>New</button>
+                <button>Upload</button>
+                <button>Share</button>
+            </div>
         </div>
 
 
         <div class="main-content">
 
-            <div class="project">Your Projects</div>
+            <div class="project">
+                <h2>Your Projects</h2>
 
-            <div class="announcement">Announcements</div>
+                <div class="project-cards">
+                    <div class="card">
+                        <div class="title card-heading">Super Cool Project</div>
+                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur fugit qui cumque assumenda aliquam iure?</div>
+                        <div class="project-icons">
+                            <img src="images/star-plus-outline.svg" alt="star">
+                            <img src="images/eye-plus-outline.svg" alt="eye">
+                            <img src="images/source-fork.svg" alt="source fork">
+                        </div>
+                    </div>
 
-            <div class="trend">Trending</div>
+                    <div class="card">
+                        <div class="title">Less Cool Project</div>
+                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur fugit qui cumque assumenda aliquam iure?</div>
+                        <div class="project-icons">  
+                            <img src="images/star-plus-outline.svg" alt="star">
+                            <img src="images/eye-plus-outline.svg" alt="eye">
+                            <img src="images/source-fork.svg" alt="source fork">
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="title">Impossible App</div>
+                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur fugit qui cumque assumenda aliquam iure </div>
+                        <div class="project-icons">
+                            <img src="images/star-plus-outline.svg" alt="star">
+                            <img src="images/eye-plus-outline.svg" alt="eye">
+                            <img src="images/source-fork.svg" alt="source fork">
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="title">Easy Peasy App</div>
+                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur fugit qui cumque assumenda aliquam iure</div>
+                        <div class="project-icons">
+                            <img src="images/star-plus-outline.svg" alt="star">
+                            <img src="images/eye-plus-outline.svg" alt="eye">
+                            <img src="images/source-fork.svg" alt="source fork">
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="title">Ad Blocker</div>
+                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur fugit qui cumque assumenda aliquam iure</div>
+                        <div class="project-icons">    
+                            <img src="images/star-plus-outline.svg" alt="star">
+                            <img src="images/eye-plus-outline.svg" alt="eye">
+                            <img src="images/source-fork.svg" alt="source fork">
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="title">Money Maker</div>
+                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur fugit qui cumque assumenda aliquam iure?</div>
+                        <div class="project-icons">
+                            <img src="images/star-plus-outline.svg" alt="star">
+                            <img src="images/eye-plus-outline.svg" alt="eye">
+                            <img src="images/source-fork.svg" alt="source fork">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="announcements">
+                <h2 class="title">Announcements</h2>
+
+                <div class="anncouncement-container">
+                    <div class="announcement">
+                        <div class="title">Site Mainenance</div>
+                        <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere explicabo, voluptas rem fuga amet...</div>
+                    </div> 
+
+                    <div class="announcement">
+                        <div class="title">Community Share Day</div>
+                        <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere explicabo, voluptas rem fuga amet...</div>
+                    </div>
+
+                    <div class="announcement">
+                        <div class="title">Updated Privacy Policy</div>
+                        <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere explicabo, voluptas rem fuga amet...</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="trend">
+                <h2 class="title">Trending</h2>
+                <div class="trend-container">
+                    <div class="trender">
+                        <img src="images/account-circle.svg" alt="profile">
+                        <div class="profile">
+                            <div class="social">@tegan</div>
+                            <div>World Peace Builder</div>
+                        </div>
+                    </div>
+                    <div class="trender">
+                        <img src="images/account-circle.svg" alt="profile">
+                        <div class="profile">
+                            <div class="social">@morgan</div>
+                            <div>Super Cool Project</div>
+                        </div>
+                    </div>
+                    <div class="trender">
+                        <img src="images/account-circle.svg" alt="profile">
+                        <div class="profile">
+                            <div class="social">@kendall</div>
+                            <div>Life Changing App</div>
+                        </div>
+                    </div>
+                    <div class="trender">
+                        <img src="images/account-circle.svg" alt="profile">
+                        <div class="profile">
+                            <div class="social">@alex</div>
+                            <div>No Traffic Maker</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
